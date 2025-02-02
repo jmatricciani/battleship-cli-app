@@ -1,0 +1,17 @@
+{
+  "name": "bun-init--y",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "bun-promptx": "^0.2.0"
+  },
+  "scripts": {
+    "start-game" : "bun index.ts"
+  }
+}
